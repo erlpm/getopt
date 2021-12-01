@@ -10,20 +10,20 @@ Requirements
 You should only need a somewhat recent version of Erlang/OTP. The module has
 been tested with all versions of Erlang starting with R13B and ending with 20.
 
-You also need a recent version of [rebar3](http://www.rebar3.org/) in
+You also need a recent version of [epm](http://www.erl.pm/) in
 the system path.
 
 Installation
 ------------
 
-To compile the module you simply run `rebar3 compile`.
+To compile the module you simply run `epm compile`.
 
-To run the unit tests run `rebar3 eunit`.
+To run the unit tests run `epm eunit`.
 
-To build the (very) limited documentation run `rebar edoc`.
+To build the (very) limited documentation run `epm edoc`.
 
 To use getopt in your project you can just add it as a dependency in your
-`rebar.config` file in the following way:
+`epm.config` file in the following way:
 ```erlang
 {deps,
  [

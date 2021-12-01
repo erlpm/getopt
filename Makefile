@@ -5,20 +5,20 @@ APPLICATION := getopt
 all: compile
 
 clean:
-	@rebar3 clean
+	@epm clean
 
 compile:
-	@rebar3 compile
+	@epm compile
 
 dialyzer: compile
-	@rebar3 dialyzer
+	@epm dialyzer
 
 edoc:
-	@rebar3 edoc
+	@epm edoc
 
 shell:
-	@rebar3 shell
+	@epm shell
 
 test:
-	@rebar3 eunit
+	@epm eunit
 

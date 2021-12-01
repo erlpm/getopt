@@ -8,7 +8,7 @@
 %%% a copy of the New BSD license with this software. If not, it can be
 %%% retrieved from: http://www.opensource.org/licenses/bsd-license.php
 %%%-------------------------------------------------------------------
--module(rebar_test).
+-module(epm_test).
 -author('juanjo@comellas.org').
 
 -export([test/0, test/1, test_required/0, test_check/0, usage/0]).
